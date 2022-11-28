@@ -1,0 +1,16 @@
+:root {
+    --transparent-violet: #2e02165b;
+    background-color: #70053554;
+
+}
+
+
+
+.nav-bg-custom {
+    background-color: #2e0216;
+}
+
+.jbt-bg-custom, 
+.card-bg-cus {
+    background-color: var(--transparent-violet);
+}
