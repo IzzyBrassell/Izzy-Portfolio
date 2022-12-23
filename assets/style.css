@@ -9,8 +9,9 @@ body {
 }
 
 a,
-a:hover {
-    color:rgb(97, 96, 96);
+a:hover, 
+.fix-color{
+    color:rgb(141, 139, 139);
 }
 
 
