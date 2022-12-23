@@ -10,59 +10,58 @@
 </head>
 
 <body>
-    <Header class="navbar navbar-dark nav-bg-custom">
-        <h2 class="navbar-brand mb-0 h1">Israel Brassell's Portfolio</h2>
-    </header> 
+  <nav class="navbar navbar-expand-lg nav-bg-custom">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Israel (Izzy) Brassell's Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#Aboutme">About Me</a>
+          <a class="nav-link" href="#projects">Projects</a>
+          <a class="nav-link" href="#contact">Contact Me!</a>
+        </div>
+      </div>
+    </div>
+  </nav>
     <section class="jumbotron jumbotron-fluid jbt-bg-custom">
         <article class="container d-inline-flex ">
         <div class="d-inline-flex flex-column">
-          <h1 class="display-4 justify-content-start">About Me</h1>
+          <h1 class="display-4 justify-content-start" id="Aboutme">About Me</h1>
           <p class="lead">I am a 26 year old learning Full Stack Development at Georgia Tech's Coding Bootcamp. By April of 2023, I will be proficient in HTML, CSS, Javascript, Node.js, Mern, React, and NoSQL. In my free time I enjoy playing Videogames and DND. I was in the Restaurant industry for 8 years (2 years as management) before I decided to switch to web development. My projects will be updated as they are completed and my contact is at the bottom of the page.</p>
           </div>
-          <img src="./assets/images/izzy.jpg" class="rounded float-right w-25 h-25 justify-content-end" alt="Profile Picture">
+          <img src="./assets/images/Izzy1.jpg" class="rounded float-right w-25 h-25 justify-content-end custom-img" alt="Profile Picture">
         </article>
     </section>
-    <section>
+    <section id="projects">
         <div class="card d-inline-flex flex-wrap card-bg-cus" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="./assets/Images/Streamer's Den.png" class="card-img-top img-sz-cus1" alt="Streamer's Den">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Streamer's Den</h5>
+              <p class="card-text">A website made to be of use to a Live streamer so that their Fan's can have easy access to their most recent works. Utilizing Youtube Data API and Youtube Iframe Api alongside Javascript to Function</p>
+              <a href="https://github.com/IzzyBrassell/iCarly-project-1" class="btn btn-secondary custom-btn">Check the Repo!</a>
             </div>
           </div>
           <div class="card d-inline-flex flex-wrap card-bg-cus" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="./assets/Images/target.jpg" class="card-img-top img-sz-cus" alt="Target Practice">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Target Practice Game</h5>
+              <p class="card-text">A target Practice game deployed using Node.JS</p>
+              <a href="#" class="btn btn-secondary custom-btn">Check the Repo!</a>
             </div>
           </div>
           <div class="card d-inline-flex flex-wrap card-bg-cus" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="./assets/Images/SMS.png" class="card-img-top img-sz-cus" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Translate Talk</h5>
+              <p class="card-text">A WIP App that will Translate Texts as you recieve them</p>
+              <a href="#" class="btn btn-secondary custom-btn">Check the Repo!</a>
             </div>
           </div>
-          <div class="card d-inline-flex flex-wrap card-bg-cus" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-          <div class="card d-inline-flex flex-wrap card-bg-cus" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
+    </section>
+    <section id="contact">
+
     </section>
 </body>
 </html>
